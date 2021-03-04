@@ -28,7 +28,11 @@ Here's what the GUI looks like on the hard level.
 
 The reason there's so much empty space on the easy and medium levels is that I wanted to keep the buttons a consistent 30 x 30 pixels.  That way, no matter which level you play, the game feels consistent.  The frame is 934 x 647 pixels.
 
-Here's what the GUI looks like when you've found all the bombs (on the easy level).
+Here's what the GUI looks like when you're part way through a game (on the easy level).
+
+![Partial Game](minesweeper6.png)
+
+Here's what the GUI looks like when you've found all the bombs (on the easy level).  This is a different game than the previous image.  I didn't think to snap the previous image until after I'd written most of this document.
 
 ![You Win](minesweeper5.png)
 
