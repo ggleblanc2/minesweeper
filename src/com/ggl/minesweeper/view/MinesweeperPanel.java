@@ -89,6 +89,10 @@ public class MinesweeperPanel {
 		easyButton.setFont(smallFont);
 		mediumButton.setFont(smallFont);
 		hardButton.setFont(smallFont);
+		
+		Dimension d = mediumButton.getPreferredSize();
+		easyButton.setPreferredSize(d);
+		hardButton.setPreferredSize(d);
 
 		buttonPanel.add(easyButton);
 		buttonPanel.add(mediumButton);
