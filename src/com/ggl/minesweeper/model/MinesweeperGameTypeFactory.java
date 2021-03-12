@@ -24,21 +24,21 @@ public class MinesweeperGameTypeFactory {
 			type.setRow(10);
 			type.setColumn(10);
 			type.setPanelSize(new Dimension(300, 300));
-			type.setMaximumSize(new Dimension(920, 500));
+			type.setMaximumSize(new Dimension(920, 530));
 		} else if (setup == 2) {
 			type.setLevelName("Medium");
 			type.setNumberOfBombs(40);
 			type.setRow(16);
 			type.setColumn(16);
 			type.setPanelSize(new Dimension(480, 480));
-			type.setMaximumSize(new Dimension(920, 500));
+			type.setMaximumSize(new Dimension(920, 530));
 		} else {
 			type.setLevelName("Hard");
 			type.setNumberOfBombs(99);
-			type.setRow(16);
+			type.setRow(17);
 			type.setColumn(30);
-			type.setPanelSize(new Dimension(900, 480));
-			type.setMaximumSize(new Dimension(920, 500));
+			type.setPanelSize(new Dimension(900, 510));
+			type.setMaximumSize(new Dimension(920, 530));
 		}
 		
 		return type;
