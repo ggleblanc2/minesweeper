@@ -6,7 +6,7 @@ I've created yet another version of the Microsoft game Minesweeper.  In this ver
 
 1. The easy level is a 10 x 10 grid, with 10 bombs hidden.
 2. The medium level is a 16 X 16 grid, with 40 bombs hidden.
-3. the hard level is a 30 x 16 grid, with 99 bombs hidden.
+3. the hard level is a 30 x 17 grid, with 99 bombs hidden.
 
 The difference between this Minesweeper game and most other versions, is that **there are no bombs on the perimiter**.  Since you can detect a bomb one space away, it follows that there should be no bombs on the perimiter.  I've always found bombs on the perimiter to be a fatal flaw in most versions of Minesweeper.
 
@@ -26,7 +26,7 @@ Here's what the GUI looks like on the hard level.
 
 ![Minesweeper GUI 3](minesweeper3.png)
 
-The reason there's so much empty space on the easy and medium levels is that I wanted to keep the buttons a consistent 30 x 30 pixels.  That way, no matter which level you play, the game feels consistent.  The frame is 934 x 647 pixels.
+The reason there's so much empty space on the easy and medium levels is that I wanted to keep the buttons a consistent 30 x 30 pixels.  That way, no matter which level you play, the game feels consistent.  The frame is 934 x 677 pixels.
 
 Here's what the GUI looks like when you're part way through a game (on the easy level).
 
